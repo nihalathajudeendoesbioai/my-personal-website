@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihala Thajudeen | Bioinformatics & AI</title>
+    <style>
+        :root {
+            --primary: #2ecc71; /* A "bio" green */
+            --secondary: #3498db; /* A "tech" blue */
+            --bg: #0f172a; /* Deep slate background */
+            --card-bg: #1e293b;
+            --text: #f1f5f9;
+        }
+
+        body { 
+            font-family: 'Inter', -apple-system, sans-serif; 
+            line-height: 1.7; 
+            max-width: 900px; 
+            margin: auto; 
+            padding: 40px 20px; 
+            background-color: var(--bg); 
+            color: var(--text);
+        }
+
+        header { 
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            padding: 4rem 2rem; 
+            text-align: center; 
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        h1 { 
+            font-size: 2.5rem; 
+            margin: 0; 
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .tagline { font-size: 1.1rem; color: #94a3b8; margin-top: 10px; }
+
+        section { 
+            background: var(--card-bg); 
+            padding: 30px; 
+            margin-top: 25px; 
+            border-radius: 15px; 
+            border-left: 4px solid var(--primary);
+            transition: transform 0.3s ease;
+        }
+
+        section:hover { transform: scale(1.01); }
+
+        h2 { 
+            color: var(--primary); 
+            font-size: 1.5rem;
+            margin-top: 0; 
+            display: flex;
+            align-items: center;
+        }
+
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+
+        .skill-tag {
+            display: inline-block;
+            background: rgba(46, 204, 113, 0.1);
+            color: var(--primary);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin: 5px;
+            border: 1px solid rgba(46, 204, 113, 0.3);
+        }
+
+        ul { list-style-type: "▹ "; padding-left: 20px; color: #cbd5e1; }
+        li { margin-bottom: 12px; }
+
+        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nihala Thajudeen</h1>
+        <p class="tagline">Bridging the gap between 🧬 Genomics and 🤖 Intelligence</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a postgraduate student specializing in <strong>Bioinformatics and Artificial Intelligence</strong>. 
+            I focus on building computational bridges—using Natural Language Processing and machine learning 
+            to decode complex biomedical data and optimize scientific literature retrieval.
+        </p>
+    </section>
+
+    <div class="grid">
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Master’s in Bioinformatics / Bio-AI</strong><br>(Ongoing)</li>
+                <li>Focus: NLP-based academic projects</li>
+                <li>Core: Python & ML Techniques</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Technical Focus</h2>
+            <div class="skills">
+                <span class="skill-tag">Natural Language Processing</span>
+                <span class="skill-tag">Biomedical Text Mining</span>
+                <span class="skill-tag">Genomics Analysis</span>
+                <span class="skill-tag">Information Retrieval</span>
+                <span class="skill-tag">Python (NumPy/Pandas)</span>
+            </div>
+        </section>
+    </div>
+
+    <section>
+        <h2>Current Interests</h2>
+        <p>
+            I’m particularly fascinated by how LLMs (Large Language Models) can be fine-tuned to understand 
+            specialized biological nomenclature, potentially accelerating the speed of clinical discovery.
+        </p>
+    </section>
+
+</body>
+</html>
